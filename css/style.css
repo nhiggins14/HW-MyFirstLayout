@@ -1,0 +1,128 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+.purpWrap {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background: rgb(117,0,255);
+    background: radial-gradient(circle, rgba(117,0,255,1) 0%, rgba(134,43,240,1) 70%);
+    margin: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    justify-content: space-between;
+}
+#logo {
+    background-image: url("../images/NHLogo.png");
+    height: 150px;
+    width: 95px;
+    background-size: cover;
+    margin: 20px 40px;
+   ;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#underline {
+display: flex;
+width: 532px;
+height: 100px;
+border-bottom: 3px solid white;
+}
+
+
+#aboutMe {
+display: flex;
+color:white;
+font-size: 25px;
+position: relative;
+left: 30px;
+top: 70px;
+font-style: bold;
+}
+
+.flexbox2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 568px;
+    height: 343px;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 36px;
+    margin-top: 60px;
+}
+.cardUnder {
+    position: absolute;
+    right: o;
+    top: 0;
+    width: 80%;
+    height: 100px;
+    border-bottom: 3px solid rgb(117,0,255);
+}
+    
+p {
+    position: absolute;
+    top: 20%;
+    padding: 48px;
+    line-height: 30px;
+}
+h4 {
+   position: absolute;
+    margin-top: 12%;
+   left: 10%;
+   font-size: 28px;
+}
+img {
+    width: 350px;
+    position: absolute;
+    height: 400px;
+    left: 250px;
+    top: 94px;
+}
+#nametag {
+    position: absolute;
+    color: white;
+    left: 40px;
+    top: 50px;
+   
+ 
+}
+#hello {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 45px;
+    color: white;
+}
+#mynameis {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+#Nathaniel {
+    position: absolute;
+    top: 22%;
+    left: 54.7%;
+    font-size: 97px;
+    color: white;
+    font-weight: bold;
+}
+#Higgins {
+    position: absolute;
+    top: 34%;
+    left: 66.6%;
+    font-size: 70px;
+    color: white;
+    font-weight: lighter;
+}
