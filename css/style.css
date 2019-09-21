@@ -128,3 +128,15 @@ img {
     left: 80%;
     bottom: 100%;
 }
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.align-right {
+    left: 500px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 18px;
+    font-weight: bold;
+}
