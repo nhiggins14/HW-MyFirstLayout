@@ -8,16 +8,17 @@ body {
     background: rgb(117,0,255);
     background: radial-gradient(circle, rgba(117,0,255,1) 0%, rgba(134,43,240,1) 70%);
     margin: 0;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     justify-content: space-between;
 }
 #logo {
     background-image: url("../images/NHLogo.png");
+    position: relative;
     height: 150px;
     width: 95px;
     background-size: cover;
-    margin: 20px 40px;
+    margin: 20px 60px;
    ;
 }
 .flex {
@@ -85,27 +86,20 @@ img {
     position: absolute;
     height: 400px;
     left: 250px;
-    top: 94px;
+    top: 86px;
 }
-#nametag {
-    position: absolute;
-    color: white;
-    left: 40px;
-    top: 50px;
-   
- 
-}
+
 #hello {
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 42%;
+    left: 36%;
     font-size: 45px;
     color: white;
 }
 #mynameis {
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 43%;
     font-size: 40px;
     color: white;
     font-weight: lighter;
@@ -113,7 +107,7 @@ img {
 #Nathaniel {
     position: absolute;
     top: 22%;
-    left: 54.7%;
+    left: 47.7%;
     font-size: 97px;
     color: white;
     font-weight: bold;
@@ -121,8 +115,16 @@ img {
 #Higgins {
     position: absolute;
     top: 34%;
-    left: 66.6%;
+    left: 59.6%;
     font-size: 70px;
     color: white;
     font-weight: lighter;
+}
+
+#linkedLogo {
+    height: 30px;
+    width: auto;
+    position: relative;
+    left: 80%;
+    bottom: 100%;
 }
