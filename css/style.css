@@ -18,7 +18,7 @@ body {
     height: 150px;
     width: 95px;
     background-size: cover;
-    margin: 20px 60px;
+    margin: 20px 70px;
    ;
 }
 .flex {
@@ -28,21 +28,21 @@ body {
 }
 
 #underline {
-display: flex;
-width: 532px;
-height: 100px;
-border-bottom: 3px solid white;
+    display: flex;
+    width: 532px;
+    height: 100px;
+    border-bottom: 3px solid white;
 }
 
 
 #aboutMe {
-display: flex;
-color:white;
-font-size: 25px;
-position: relative;
-left: 30px;
-top: 70px;
-font-style: bold;
+    display: flex;
+    color:white;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+    font-style: bold;
 }
 
 .flexbox2 {
@@ -56,7 +56,9 @@ font-style: bold;
     justify-content: center;
     width: 568px;
     height: 343px;
-   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 13px 20px -3px rgba(186,186,186,1);
+    -moz-box-shadow: 5px 13px 20px -3px rgba(186,186,186,1);
+    box-shadow: 5px 13px 20px -3px rgba(186,186,186,1);
     border-radius: 36px;
     margin-top: 60px;
 }
@@ -73,7 +75,9 @@ p {
     position: absolute;
     top: 20%;
     padding: 48px;
+    margin-right: 10px;
     line-height: 30px;
+    font-size: 14px;
 }
 h4 {
    position: absolute;
@@ -122,11 +126,11 @@ img {
 }
 
 #linkedLogo {
-    height: 30px;
+    height: 50px;
     width: auto;
     position: relative;
     left: 80%;
-    bottom: 100%;
+    top: 225%;
 }
 .text {
     display: flex;
@@ -139,4 +143,13 @@ img {
     margin-right: 90px;
     margin-top: 18px;
     font-weight: bold;
+}
+.italics {
+    font-style: italic;
+}
+.omniLink {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
 }
